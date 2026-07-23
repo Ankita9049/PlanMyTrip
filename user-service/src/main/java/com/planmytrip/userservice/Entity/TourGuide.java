@@ -1,12 +1,9 @@
 package com.planmytrip.userservice.Entity;
 
-<<<<<<< HEAD
-import com.planmytrip.userserviceEnum.Role;
-=======
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
->>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a
+
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -15,23 +12,18 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class TourGuide {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long userId;
+    private Long guideId;
 
     private String name;
     private String email;
-<<<<<<< HEAD
-    private String password;
-
-    @Enumerated(EnumType.STRING)
-    private Role role;
-}
-=======
     private String phone;
-    private String password;
-}
+    private String experience;
 
->>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a
+    @ManyToOne
+    @JoinColumn(name = "admin_id")
+    private Admin admin;
+}

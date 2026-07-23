@@ -1,0 +1,29 @@
+.guide-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+.guide-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.guide-card img{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}

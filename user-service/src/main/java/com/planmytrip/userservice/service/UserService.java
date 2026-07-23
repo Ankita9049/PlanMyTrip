@@ -8,6 +8,7 @@ public interface UserService {
 
     User registerUser(User user);
 
+<<<<<<< HEAD
     User login(String email, String password);
 
     String sendOtp(String email);
@@ -17,5 +18,14 @@ public interface UserService {
     User getUserById(Long userId);
 
     List<User> getAllUsers();
+=======
+    String sendOtp(String email);   // OTP logic
+
+    boolean verifyOtp(String email, String otp);
+
+    User login(String email, String password);
+
+    User getUserById(Long id);
+>>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a
 
 }

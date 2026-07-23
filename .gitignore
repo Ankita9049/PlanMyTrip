@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 bin/
 .settings/
@@ -6,3 +7,40 @@ bin/
 .idea/
 *.iml
 .DS_Store
+=======
+<<<<<<< HEAD
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+=======
+.metadata/
+**/target/
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+*.log
+>>>>>>> 4dc97d2394ea393c8a652205dc87adae8dede806
+>>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a

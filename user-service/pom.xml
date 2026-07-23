@@ -33,6 +33,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+<<<<<<< HEAD
         
         <dependency>
     <groupId>io.jsonwebtoken</groupId>
@@ -53,6 +54,8 @@
     <version>0.11.5</version>
     <scope>runtime</scope>
 </dependency>
+=======
+>>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a
 
         <!-- 🗄️ JPA -->
         <dependency>
@@ -71,6 +74,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+<<<<<<< HEAD
         <!--
         <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -83,6 +87,8 @@
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.5.0</version>
 </dependency>
+=======
+>>>>>>> 089c3f8e9ca150b32ba7bca8f1d7b23b5ffe5b6a
 
         <!-- 🐬 MYSQL -->
         <dependency>

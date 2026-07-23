@@ -1,0 +1,64 @@
+.navbar {
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .08);
+}
+
+.brand-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd !important;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+
+    margin: 0 12px;
+
+    font-weight: 600;
+
+    color: #444 !important;
+
+    transition: .3s;
+
+}
+
+.navbar-nav .nav-link:hover {
+
+    color: #0d6efd !important;
+
+}
+
+.navbar-nav .nav-link.active {
+
+    color: #0d6efd !important;
+
+    border-bottom: 3px solid #0d6efd;
+
+}
+
+.wishlist-btn {
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border: 2px solid #dc3545;
+
+    color: #dc3545;
+
+    transition: 0.3s;
+
+}
+
+.wishlist-btn:hover {
+
+    background: #dc3545;
+
+    color: white;
+
+    transform: scale(1.1);
+
+}

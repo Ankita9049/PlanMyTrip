@@ -1,0 +1,57 @@
+.package-details {
+
+    padding: 70px 0;
+
+}
+
+.details-image {
+
+    width: 100%;
+
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+}
+
+.rating {
+
+    color: #f5a623;
+
+    font-size: 20px;
+
+}
+
+.details-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+    margin-top: 30px;
+
+}
+
+.details-grid div {
+
+    background: #f8f9fa;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    transition: .3s;
+
+}
+
+.details-grid div:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .12);
+
+}
