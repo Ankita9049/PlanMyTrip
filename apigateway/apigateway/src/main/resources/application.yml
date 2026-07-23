@@ -1,0 +1,48 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: user-service
+#          uri: http://localhost:8081
+#          predicates:
+#            - Path=/api/users/**
+#
+#        - id: travel-service
+#          uri: http://localhost:8082
+#          predicates:
+#            - Path=/api/travel/**
+#         
+#        - id: payment-service
+#          uri: http://localhost:8083
+#          predicates:
+#            - Path=/api/payments/**
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: travel-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/travel/**
+          filters:
+            - RewritePath=/travel/(?<segment>.*), /api/${segment}
+
+        - id: user-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/users/**
+          filters:
+            - RewritePath=/users/(?<segment>.*), /api/users/${segment}
+
+        - id: payment-service
+          uri: http://localhost:8083
+          predicates:
+            - Path=/payments/**
+          filters:
+            - RewritePath=/payments/?(?<segment>.*), /api/${segment}
