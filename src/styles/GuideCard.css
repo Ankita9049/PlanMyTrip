@@ -1,0 +1,41 @@
+.guide-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.guide-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+}
+
+.guide-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 25px auto 15px;
+}
+
+.guide-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.guide-content h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.guide-content p {
+    margin-bottom: 10px;
+}
+
+.guide-rating {
+    color: #f4b400;
+    font-weight: bold;
+}

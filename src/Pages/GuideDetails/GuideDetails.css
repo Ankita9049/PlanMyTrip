@@ -1,0 +1,37 @@
+.guide-details{
+
+    padding:70px 0;
+
+}
+
+.guide-profile-image{
+
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:8px solid #0d6efd;
+
+}
+
+.guide-details h2{
+
+    font-weight:700;
+    margin-bottom:20px;
+
+}
+
+.guide-details p{
+
+    font-size:18px;
+    margin-bottom:15px;
+
+}
+
+.guide-details button{
+
+    width:220px;
+    height:50px;
+    font-size:18px;
+
+}

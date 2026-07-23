@@ -1,0 +1,111 @@
+.reviews-section {
+
+    padding: 90px 0;
+
+    background: #f8f9fa;
+
+}
+
+.reviews-heading {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.reviews-heading h2 {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+}
+
+.reviews-heading p {
+
+    color: #666;
+
+}
+
+.review-card {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: .35s;
+
+    height: 100%;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+}
+
+.review-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .15);
+
+}
+
+.profile-circle {
+
+    width: 70px;
+
+    height: 70px;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    background: #0d6efd;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+.review-card h5 {
+
+    font-weight: 700;
+
+}
+
+.review-card small {
+
+    color: #888;
+
+}
+
+.stars {
+
+    margin: 15px 0;
+
+    font-size: 20px;
+
+}
+
+.review-card p {
+
+    color: #555;
+
+    font-style: italic;
+
+}

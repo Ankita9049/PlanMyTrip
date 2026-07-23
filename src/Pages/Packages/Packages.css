@@ -1,0 +1,26 @@
+.search-filter-box {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+
+    margin-bottom: 50px;
+
+}
+
+.form-control,
+.form-select {
+
+    height: 48px;
+
+}
+
+.btn {
+
+    height: 48px;
+
+}

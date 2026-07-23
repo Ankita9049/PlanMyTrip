@@ -1,0 +1,23 @@
+.profile-card{
+
+    max-width:600px;
+
+    margin:auto;
+
+    padding:40px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+.profile-image{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}

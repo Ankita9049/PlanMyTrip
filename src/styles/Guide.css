@@ -1,0 +1,96 @@
+.guides-section {
+    padding: 90px 0;
+    background: white;
+}
+
+.guides-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.guides-heading h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.guides-heading p {
+    color: #666;
+}
+
+.guide-card {
+
+    background: white;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    padding: 30px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+
+    transition: .35s;
+
+    height: 100%;
+
+}
+
+.guide-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+
+}
+
+.guide-card img {
+
+    width: 130px;
+
+    height: 130px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 20px;
+
+}
+
+.guide-card h4 {
+
+    font-weight: 700;
+
+}
+
+.available {
+
+    display: inline-block;
+
+    background: #d4edda;
+
+    color: #198754;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-weight: 600;
+
+}
+
+.busy {
+
+    display: inline-block;
+
+    background: #f8d7da;
+
+    color: #dc3545;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-weight: 600;
+
+}
